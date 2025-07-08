@@ -1,0 +1,11 @@
+variable "primary_region" {}
+variable "secondary_region" {}
+variable "primary_vpc_cidr" {}
+variable "primary_public_subnet_cidr" {}
+variable "primary_private_subnet_cidr" {}
+variable "secondary_vpc_cidr" {}
+variable "secondary_public_subnet_cidr" {}
+variable "secondary_private_subnet_cidr" {}
+variable "primary_ami" {}
+variable "secondary_ami" {}
+variable "instance_type" {}
